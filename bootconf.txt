@@ -1,4 +1,6 @@
 //CURRENT BOOTLOADER CONFIGURATION, using Raspberry Pi OS
+//Changes to this file don't do anything, you'll need to edit the EEPROM bootloader to share these settings through Raspberry Pi OS
+// psst, use `rpi-imager` to flash the SD Card with the Pi OS
 
 [all]
 BOOT_UART=0
