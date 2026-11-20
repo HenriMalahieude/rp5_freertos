@@ -53,7 +53,6 @@ _start:
     cmp w1, #GPIO_BASE
     b.ne 1f
     bl core_poke
-    mov w1, #0 //we are core 0
 1:
 
     //5. loop forever

@@ -1,3 +1,7 @@
 *.elf
 *.img
 *.o
+
+**/_build/**
+_build/**
+_build

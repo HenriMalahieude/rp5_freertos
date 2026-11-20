@@ -1,7 +1,7 @@
 #64bit mode
 arm_64bit=1
 
-#reduce frequency
+#frequency changes to entire processor
 arm_freq=2400
 
 #firmware does the work for GPIO init

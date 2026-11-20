@@ -4,9 +4,9 @@ Just an exploration of bare metal and operating system programming for the Raspb
 I'm doing this to find the amount of time it takes between power-on and first I/O operation
 using LEDs and a Saleae usb oscilloscope.
 
-## How to Build (not yet done)
+## How to Build
 
-1. `make [bare_metal|freertos]`
+1. `make [bare_metal|free_rtos]`
 2. Copy the `_build` folder contents to your SD card for the raspberry pi to boot from
 
 ## AI Disclosure
@@ -15,3 +15,7 @@ While I prefer to write the code myself, and even in the worst case scenario cop
 I cannot guarantee that the code in this project is 100% human generated.
 
 Nor can I say that it 100% works, but theoretically everything should be fine. :skull:
+
+## Nice Links:
+1. (GPIO Pinout and Config Variables)[https://www.raspberrypi.com/documentation/computers/raspberry-pi.html]
+2. (config.txt documentation)[https://www.raspberrypi.com/documentation/computers/config_txt.html]
