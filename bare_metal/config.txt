@@ -1,0 +1,17 @@
+#64bit mode
+arm_64bit=1
+
+#reduce frequency
+arm_freq=2400
+
+#firmware does the work for GPIO init
+pciex4_reset=0
+
+#No splash, no time wasted?
+disable_splash=1
+
+#filename
+kernel=kernel_2712.img
+
+#boot addressing
+kernel_address=0x80000
