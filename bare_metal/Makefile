@@ -1,6 +1,6 @@
 TRPL := aarch64-linux-gnu-
 
-FLAGS := -nostdlib -nostartfiles -Wl,--build-id=none -Wl,-Ttext=0x80000 -static -no-pie
+FLAGS := -nostdlib -nostartfiles -Wl,--build-id=none -Wl,-Ttext=0x200000 -static -no-pie
 BUILD_DIR ?= .
 
 kernel_2712.img: main.S
